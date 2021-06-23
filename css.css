@@ -1,0 +1,60 @@
+.container{
+    background: linear-gradient(to right, #457fca, #5691c8);    background-size: cover;
+    height:1000px;
+    width: 100%;
+}
+
+#display{padding-top: 10%;
+
+    width: 100%;
+    font-size: 120px;
+    text-align: center;
+    margin: 0px auto;
+    color: #000428;
+    text-shadow: 15px 10px 9px rgb(11, 9, 12);
+}
+
+.buttons{
+    padding: 10px;
+    text-align: center;
+}
+.hey:hover{
+    transition: all 0.5s;
+    color: #000428;
+    background-color: #FFFFFF;
+    background-color: #FFFFFF;
+    background-color: #08AEEA;
+    background-image: linear-gradient(0deg, #08AEEA 0%, #2AF598 100%);
+    
+
+
+}
+
+body{margin: 0;
+padding: 0;
+}
+
+.hey{
+    font-size: 25px;
+    background: linear-gradient(to right, #457fca, #5691c8);
+    padding: 15px;
+    margin: 35px;
+    border-radius: 15px;
+    border:0.5px solid black;
+    color: white;
+    box-shadow: 10px 10px 10px teal;
+}
+
+
+@media (max-width: 450px) {
+    #display{
+        
+        color: white;
+        text-align: center;
+        font-size: 65px;
+       
+    }
+    .hey{
+        font-size: small;
+    }
+}
